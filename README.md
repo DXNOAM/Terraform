@@ -160,3 +160,5 @@ terraform destroy
 ```
 
 Review the destroy plan and type `yes`. The existing VPC and subnet are preserved. Local SSH keys remain on your computer. Verify in the AWS console that the instance has terminated.
+=======
+# Terraform
