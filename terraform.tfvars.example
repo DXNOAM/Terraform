@@ -1,0 +1,14 @@
+# Copy this template to terraform.tfvars, then replace all placeholders before deployment.
+
+# Existing VPC in the configured AWS region.
+VPC_ID = "vpc-REPLACE_ME"
+
+# Existing public subnet belonging to VPC_ID in the same AWS region.
+SUBNET_ID = "subnet-REPLACE_ME"
+
+# Public IPv4 address of the computer running Terraform, followed by /32.
+SSH_CIDR = "YOUR_PUBLIC_IP/32"
+
+# Choose a type marked Free tier eligible for your AWS account.
+INSTANCE_TYPE = "t3.micro"
+
